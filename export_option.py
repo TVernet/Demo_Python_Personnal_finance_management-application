@@ -3,18 +3,6 @@ import csv
 from Data.data_library import expense
 from Data.data_library import income
 
-# si tourne dans une app web, transmettre le document au client du serveur
-# (navigateur web de l'utilisateur) pour téléchargement. Dans ce cas utiliser
-#  'Flask' ou 'Django'. Exemple :
-# from flask import Flask, send_file
-# app = Flask(__name__
-# @app.route('/download-csv')
-# def download_csv():
-#     # création du fichier CSV
-#     csv_export_option()
-#     # Envoi du fichier pour téléchargement
-#     return send_file("Finances personnelles.csv", as_attachment=True)
-
 
 # Writing to a csv file
 def csv_export_option():
