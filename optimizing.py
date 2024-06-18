@@ -2,7 +2,8 @@ from Data.data_library import expense
 from operator import mod
 
 
-# Optimization advice decorator
+# Using decorators to give optimization advice linked to the output 
+# of the Calculation.cash_flow() method
 def optimization_advice(method):
     def wrapper(self):
         # call for original method
