@@ -35,7 +35,7 @@ class Calculation:
     def indebtedness(self):
         print(f"\nTaux d'endettement = {self.debt_ratio} %")
 
-    # Display cash flow calculation
+    # Display cash flow calculation and dynamic advice using a decorator
     @optimization_advice
     def cash_flow(self):
         print(f"\nCash flow annuel = {self.tt_cash_flow} €")
