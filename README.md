@@ -1,0 +1,1 @@
+Ce petit script conçu pour une interaction utilisateur en interface en ligne de commande n'a pas été créé pour être une application de gestion de finance personnelle complète et performante, mais uniquement à des fins de pratique de la programmation et de démonstration.
