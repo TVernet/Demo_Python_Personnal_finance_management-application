@@ -4,7 +4,7 @@ from Data.data_library import expense
 from Data.data_library import income
 
 
-# Writing to a csv file
+# Suggest exporting data to a csv file
 def csv_export_option():
     export_option = input("\nDésirez vous effectuer un export .csv ? \n").lower()
     if export_option == "oui":
