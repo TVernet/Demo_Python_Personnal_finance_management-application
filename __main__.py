@@ -28,7 +28,7 @@ def main_func():
     # Displays savings capacity
     calc.cash_flow()
 
-    # Display statement of expenses
+    # Display statement of expenses by category in ASCII Art
     statement_of_expenses()
 
     # Offers csv export 
