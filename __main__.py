@@ -8,8 +8,8 @@ def main_func():
     print("Bonjour ! \n")
 
     # asks if the user wants to manage his data. 
-    #If so, he'll be asked to choose the type of action he wants to take: 
-    #add data, delete data, list data or skip this step.
+    # If so, he'll be asked to choose the type of action he wants to take: 
+    # add data, delete data, list data or skip this step.
     management()
 
     # Create an instance of the Calculation class to display the data table
