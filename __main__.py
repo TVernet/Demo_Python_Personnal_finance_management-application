@@ -7,32 +7,34 @@ from export_option import csv_export_option
 def main_func():
     print("Bonjour ! \n")
 
-    # Asks if user wants to manage data
+    # asks if the user wants to manage his data. 
+    #If so, he'll be asked to choose the type of action he wants to take: 
+    #add data, delete data, list data or skip this step.
     management()
 
-    # Create an instance of the Calculation class
+    # Create an instance of the Calculation class to display the data table
     calc = Calculation()
 
-    # Calculating total income and expenses
+    # Calculates and displays total income and expenses
     calc.tt_income()
     calc.tt_expense()
 
-    # Warning if expenses are too high
+    # Displays a warning if expenses are too high
     calc.overspending()
 
-    # Debt ratio
+    # Display debt ratio
     calc.indebtedness()
 
-    # saving capacity
+    # Displays savings capacity
     calc.cash_flow()
 
-    # Statement of expenses
+    # Display statement of expenses
     statement_of_expenses()
 
-    # csv export option
+    # Offers csv export 
     csv_export_option()
 
-    # other action
+    # Propose another action
     other_action = input("\nVoulez-vous effectuer une autre action ? \n")
     if other_action == "oui":
         return main_func()
