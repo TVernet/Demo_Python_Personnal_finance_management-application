@@ -25,7 +25,7 @@ def main_func():
     # Display debt ratio
     calc.indebtedness()
 
-    # Displays savings capacity
+    # Displays savings capacity and provide dynamic advice
     calc.cash_flow()
 
     # Display statement of expenses by category in ASCII Art
