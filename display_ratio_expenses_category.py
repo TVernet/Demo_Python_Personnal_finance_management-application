@@ -13,7 +13,7 @@ def statement_of_expenses():
         display_ratio = f"{category}: {ratio:.2%}"
         print(f"\nDépenses par catégorie sur pourcentage total : {display_ratio}")
 
-    # Print expenditure by category in ASCII
+    # Print expenditure by category in ASCII Art
     ratios = calc.expenses_category()
     category = list(ratios.keys())
     values = list(ratios.values())
